@@ -1,4 +1,4 @@
-# 🚀 FYNDR - Fast private file search
+# 🚀 Filebase - Fast private file search
 
 > Fast and intelligent file and content search for windows.
 
@@ -18,7 +18,7 @@
 
 ## 🧠 Overview
 
-FYNDR is a fully private and fast file search engine. It is a single window app which can monitor a folder and produce instant search results. FYNDR is useful to instantly search unstructured data in files like pdf, doc, docx etc.
+Filebase is a fully private and fast file search engine. It is a single window app which can monitor a folder and produce instant search results. Filebase is useful to instantly search unstructured data in files like pdf, doc, docx etc.
 
 ---
 
@@ -30,8 +30,8 @@ Download and install the app from the [official website](https://abc.com).
 
 ## 💬 Feedback & Support
 
-- [Request a Feature or Report a Bug](https://github.com/p-stackforge/FYNDR-support/issues/new/choose)
-- [Start a Discussion](https://github.com/p-stackforge/FYNDR-support/discussions)
+- [Request a Feature or Report a Bug](https://github.com/p-stackforge/Filebase-support/issues/new/choose)
+- [Start a Discussion](https://github.com/p-stackforge/Filebase-support/discussions)
 
 ---
 
