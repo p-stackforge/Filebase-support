@@ -65,13 +65,18 @@ Filebase is a private, high-performance file search app for Windows. It pre-inde
 
 ## 🛣️ Roadmap
 
-| Version | Planned Highlights |
-|---------|--------------------|
-| 1.1     | Format filters (select which file types to extract) |
-| 1.2     | Search improvements, regex & advanced queries |
-| 1.3     | Per‑folder indexing profiles & performance tuning |
-| 1.4     | Improved in‑app preview and "search within preview" |
-| TBD     | Local LLM integration, Document QA and natural‑language search |
-| TBD     | Native extraction to improve speed and memory usage |
+Current: v1.0 — Beta (this release)
+
+| Version | Status  | Highlights |
+|---------|---------|------------|
+| v1.0    | Beta    | Initial beta release — core search, indexing, OCR, previews |
+| v1.1    | Planned | Format Filters — select which file formats to extract and index |
+| v1.2    | Planned | Search improvements — improved filtering, regex & advanced queries |
+| v1.3    | Planned | Local LLM Integration — summarize files and extract key points locally |
+| v1.4    | Planned | Document QA — chat with your documents to answer questions |
+| v1.5    | Planned | Natural Language Search — query using plain language powered by local LLMs |
+| v1.6    | Planned | Native Extraction — boost extraction speed and reduce memory usage |
+
+(Features marked "Planned" are coming soon — timelines may change.)
 
 
