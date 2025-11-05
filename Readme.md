@@ -1,6 +1,6 @@
 # 🚀 Filebase - Fast private file search
 
-> Fast and intelligent file and content search for windows.
+> Find files by content, instantly. Lightning-fast search powered by Apache Lucene with OCR support for images.
 
 ![Demo Screenshot](./assets/keyword_search.png)
 
@@ -8,23 +8,34 @@
 
 ## 📦 Features
 
-- ✅ Smart keyword search & highlight.
-- ✅ Search inside files without opening them.
-- ⚡ Simple search filters.
-- 🔒 Wildcard search.
-- 🌐 Real time search.
+- Instant full-text search across PDF, DOCX, XLSX, TXT and images (OCR).
+- Lightning-fast Lucene-powered indexing with near-instant results.
+- Keyword highlight and in-app preview with context-aware snippets.
+- Simple filters: filename, extension, path, date range and file type.
+- Wildcard and flexible pattern search (* and ? support).
+- Background extraction & chunked indexing (Apache Tika integration).
+- Fast entity extraction (emails, phones, dates) with custom patterns.
+- Folder monitoring and multiple collections.
+- Offline-first and local-only indexing for privacy.
+- Windows-native performance (.NET/C#) and low footprint.
 
 ---
 
 ## 🧠 Overview
 
-Filebase is a fully private and fast file search engine. It is a single window app which can monitor a folder and produce instant search results. Filebase is useful to instantly search unstructured data in files like pdf, doc, docx etc.
+Filebase is a private, high-performance file search app for Windows. It pre-indexes and extracts content from monitored folders in the background (using Lucene + Tika/OCR), returns near-instant search results, and keeps all data local so your files never leave your device.
 
 ---
 
-## 🛠️ How to Install
+## 🛠️ How to Install / How to Use
 
-Download and install the app from the [official website](https://abc.com).
+1. Download the beta from the official website or the Download page.
+2. Install on Windows 10/11 (requires .NET runtime).
+3. Add one or more folders (collections) to monitor — Filebase will index them in the background.
+4. Type keywords or use filters to get instant results; click a result to open or view the highlighted in-app preview.
+5. Use keywords, wildcards, and filters to refine searches.
+
+(Beta is free; feedback helps improve features.)
 
 ---
 
@@ -43,16 +54,10 @@ Download and install the app from the [official website](https://abc.com).
 
 ---
 
-## 🐞 Known Bugs and Issues
-
-- 🔧 **Tika server does not exit automatically** after use and requires manual termination.
-
----
-
 ## 🚀 How to Use
 
 1. 📥 **Download the installer** from the official website.
-2. 🧪 Upon installation, you'll start with a **30-day free trial**.
+2. 🧪 Beta version is free.
 3. 🔍 Choose a folder to scan and start searching instantly.
 4. 🛡️ No internet connection required — works completely offline.
 
@@ -60,12 +65,13 @@ Download and install the app from the [official website](https://abc.com).
 
 ## 🛣️ Roadmap
 
-| Version | Features Planned |
-|---------|------------------|
-| 1.1     | ✅ Adding external tika server for faster extraction |
-| 1.2     | ✅ Regex search support |
-| 1.3     | ✅ File format filters to selectively extract documents |
-| 1.4     | ✅ In app file preview and search within the files |
-| TBD     | ✅ Natural language search using ollama or llamacpp |
+| Version | Planned Highlights |
+|---------|--------------------|
+| 1.1     | Format filters (select which file types to extract) |
+| 1.2     | Search improvements, regex & advanced queries |
+| 1.3     | Per‑folder indexing profiles & performance tuning |
+| 1.4     | Improved in‑app preview and "search within preview" |
+| TBD     | Local LLM integration, Document QA and natural‑language search |
+| TBD     | Native extraction to improve speed and memory usage |
 
 
