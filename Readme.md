@@ -2,7 +2,7 @@
 
 > Find files by content, instantly. Lightning-fast search powered by Apache Lucene with OCR support for images.
 
-![Demo Screenshot](./assets/keyword_search.png)
+![Demo Screenshot](./assets/home.png)
 
 ---
 
@@ -50,7 +50,9 @@ Filebase is a private, high-performance file search app for Windows. It pre-inde
 
 | Home | Details |
 |------|---------|
-| ![Filters](./assets/filters.png) | ![Content extraction](./assets/extraction.png) |
+| ![Search](./assets/search.png) | ![Collections](./assets/collections.png) |
+| ![Entities](./assets/entities.png) | ![Entity extraction](./assets/entity_extraction.png) |
+
 
 ---
 
